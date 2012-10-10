@@ -1,7 +1,7 @@
 from erlport import Port, Protocol, String
 
 import sys
-sys.path.append('/usr/local/etc/needz')
+sys.path.append('/usr/local/etc/mycelerytasks')
 from private_db_celery import doc_changed
 
 class TaskCreator(Protocol):
